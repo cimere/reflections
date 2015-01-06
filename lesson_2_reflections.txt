@@ -1,0 +1,15 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+A. Git create an hidden directory containing all metadata of my repository.
+   To create a repository of the files in the current directory and thus
+   enabling version control over them.
+
+Q. How is the staging area different from the working directory and the
+   repository? What value do you think it offers?
+A. In staging area you can add files that will be commited.
+   Files in working directory and not staged can't be committed (e.g.
+   temporary files, personal files...).
+   Staging area helps permits you to works on files that for some reason
+   don't need to be part of the repository.
+   You can also use staging area to commit only some of the files that
+   have been changed.
+

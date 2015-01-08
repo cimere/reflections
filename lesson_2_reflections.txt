@@ -1,3 +1,4 @@
+
 Q. What happens when you initialize a repository? Why do you need to do it?
 A. Git create an hidden directory containing all metadata of my repository.
    To create a repository of the files in the current directory and thus
@@ -13,3 +14,32 @@ A. In staging area you can add files that will be commited.
    You can also use staging area to commit only some of the files that
    have been changed.
 
+Q. How can you use the staging area to make sure you have one commit per
+   logical change?
+A. I can add to staging area (and then commit) only the files related to
+   the logical change I want to commit.
+
+Q. What are some situations when branches would be helpful in keeping your
+   history organized? How would branches help?
+A. Branches are helpful when coding experimental features, fixing bugs,
+   adding new features, coding new different version of the program...
+   Use the in context switching! Useful to collaborate with others and
+   with yourself :)
+
+Q. How do the diagrams help you visualize the branch structure?
+A. I can see where new branches started and evenutally had been merged.
+   I can also see which branches the commits belong to.
+
+Q. What is the result of merging two branches together?
+   Why do we represent it in the diagram the way we do?
+A. Changes from branch A are merged with changes from branch B.
+   The result is a single merged branch. 
+   Changes are added or removed in the merged branch comparing A
+   and B with the original files. Conflicts may happen!
+   We see two lines converging into one.
+
+A. What are the pros and cons of s automatic merging vs. always doing
+   merges manually?Git
+Q. PROS: faster if no conflicts happen
+   CONS: if conflict happens you need to resolve it and maybe it can't be
+   	 very simple.

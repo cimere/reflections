@@ -1,45 +1,45 @@
 Q. How did viewing a diff between two versions of a file help you see 
-the bug that was introduced?
-A. The diff between two versions of the file helped me to spot immediatly
-only the lines that was intentionally or acidentaly changed. In fact
-these lines are only a small subset of the entire lines of the file.
+   the bug that was introduced?
+A. The diff between two versions of the file helped me to spot immediately
+   only the lines that was intentionally or accidentally changed. In fact
+   these lines are only a small subset of the entire lines of the file.
 
 Q. How could having easy access to the entire history of a file make you
-a more efficient programmer in the long term?
+   a more efficient programmer in the long term?
 A. Having the entire history of a file allows me to restore a previous
-version of it, to look for something I wrote in the past, to
-copy some pieces of code from a previous version to the current one that
-I could have accidentally deleted.
+   version of it, to look for something I wrote in the past, to
+   copy some pieces of code from a previous version to the current one that
+   I could have accidentally deleted.
 
 Q. What do you think are the pros and cons of manually choosing when to
-create a commit, like you do in Git, vs having versions automatically saved,
-like Google docs does?
-A. Manual commit PRO: can choose what to commit and when. Allows to do logic
-commit. CONS: you can forget to save or you can perform too large or too
-small commits.
-Automatic save PRO: you don't lose your work if you forget to save. CONS:
-save history can be difficult to read and inconsistent.
+   create a commit, like you do in Git, vs having versions automatically saved,
+   like Google docs does?
+A. Manual commit PRO: I can choose what to commit and when. Enable logic
+   commits. CONS: you can forget to save or you can perform too large or too
+   small commits.
+   Automatic save PRO: you don't lose (too much of) your work if you forget to
+   save. CONS: saved history can be difficult to be read and inconsistent.
 
 Q. Why do you think some version control systems, like Git, allow saving
-multiple files in one commit, while others, like Google Docs, treat each
-file separately?
-A. It depends on the purpouse of the VCS. Google Docs is built to edit
-document, not for writing code, and usually you edit one file at time.
-VCS for editing code allow commit of multiple file because when you write
-software, you usually make changes to different files at time.
+   multiple files in one commit, while others, like Google Docs, treat each
+   file separately?
+A. It depends on the purpouse of the VCS. For example Google Docs is built to
+   edit documents, not for writing code, and usually you edit one file at time.
+   VCS created for writing code allow commit of multiple file because usually
+   when you write software, you make changes to different files at time.
 
 Q. How can you use the commands git log and git diff to view the history
-of files?
-A. git log allows you to identifie all the commits (versions) of the code
-base, git diff allows you to visualize the lines changed between two commits
-(or versions) 
+   of files?
+A. git log permits to identifie all the commits ids of the project and their
+   descriptions.
+   git diff allows to visualize the changes between two commits. 
 
 Q. How might using version control make you more confident to make changes
-that could break something?
+   that could break something?
 A. With version control I can restore any committed version of the project.
-So I can add new features or fix bugs without worrying to break my code:
-If the things got messed up I can revert everything to a know clean codebase.
+   I can add new features or bugs fix without worrying to break my code:
+   If the things got messed up I can revert everything to a known clean codebase.
 
 Q. Now that you have your workspace set up, what do you want to try using
-Git for?
+   Git for?
 A. For project euler and all my new projects! :-)

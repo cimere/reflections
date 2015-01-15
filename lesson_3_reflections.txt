@@ -16,3 +16,8 @@ Q. Branches are different versions of the repository. They're local and can
    Fork are remote clones of remote repository on GitHub. A fork is similar to
    clone a remote repo locally and the push it back on GitHub on a different
    remote repository.
+A. What is the benefit of having a copy of the last known state of the
+   remote stored locally?
+Q. A local copy permits to work on the code even you're in a forest or when the
+   repo is not available. Moreover, if the central server crashes, it's possible
+   to restore it pulling the project from a local copy.

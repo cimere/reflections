@@ -1,23 +1,29 @@
-A. When would you want to use a remote repository rather than keeping all
+Q. When would you want to use a remote repository rather than keeping all
    your work local?
-Q. When I want to collaborate with others or I want to store the repository
+A. When I want to collaborate with others or I want to store the repository
    on another place for redundancy.
 
-A. Why might you want to always pull changes manually rather than
+Q. Why might you want to always pull changes manually rather than
    having Git automatically stay up-to-date with your remote repository?
-Q. Because I want total control over the repository I'm woking on.
+A. Because I want total control over the repository I'm woking on.
 
-A. Describe the differences between forks, clones, and branches.
+Q. Describe the differences between forks, clones, and branches.
    When would you use one instead of another?
-Q. Branches are different versions of the repository. They're local and can
+A. Branches are different versions of the repository. They're local and can
    be remote.
    Clones are local copy of other remote or local repository. They can also be
    remote.
    Fork are remote clones of remote repository on GitHub. A fork is similar to
    clone a remote repo locally and the push it back on GitHub on a different
    remote repository.
-A. What is the benefit of having a copy of the last known state of the
+Q. What is the benefit of having a copy of the last known state of the
    remote stored locally?
-Q. A local copy permits to work on the code even you're in a forest or when the
+A. A local copy permits to work on the code even you're in a forest or when the
    repo is not available. Moreover, if the central server crashes, it's possible
    to restore it pulling the project from a local copy.
+Q. How would you collaborate without using Git or GitHub? What would be easier,
+   and what would be harder?
+A. I would collaborate working each other on a different file, and exchanging
+   the files every end of the day (or often). I think this would be easier at
+   the biginning (no one need to learn git) but would pretty soon become a
+   nightmare.
